@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/review.css">
+    <title>Review</title>
+</head>
+<body>
+  <div class="main">
+    <h1>Flashcards</h1>
+    <div class="left">
+      <div class="flip-card" id="card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front" id="cardFront">
+            <div id="frontContent"></div>
+          </div>
+          <div class="flip-card-back" id="cardBack">
+            <div id="backContent"></div>
+          </div>
+        </div>
+      </div> 
+      <button id="remove">Remove this card</button>
+      <button id="toggleEditMode">Toggle edit mode</button>
+    </div>
+
+    <div class="right">
+      <h2>Review your cards</h2>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem, neque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quasi.</p>
+      <span id="totalCards">Total cards: </span>
+      <a href="./index.html">
+        <button>Add cards</button>
+      </a>
+    </div>
+  </div>
+
+  <script type="module" src="./scripts/review.js"></script>
+</body>
+</html>

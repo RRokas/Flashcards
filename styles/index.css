@@ -1,0 +1,59 @@
+body{
+    background-color: #232323;
+}
+
+.main{
+    width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    color: lightgrey;
+}
+
+h1{
+    flex-basis: 100%;
+}
+
+.left, .right{
+    margin: 20px;
+}
+
+.left{
+    flex: 5;
+}
+
+.right{
+    flex: 5;
+}
+
+textarea{
+    resize: none;
+    width: 100%;
+    margin: 10px 0 0 0;
+    background-color: #303030;
+    border-radius: 7px;
+    color: inherit;
+}
+
+label{
+    display:inline-block;
+    margin-top: 15px;
+}
+
+button{
+    display: block;
+    border-radius: 7px;
+    border: none;
+    background: #1875FF;
+    color: lightgrey;
+    text-align: center;
+    width: 102%;
+    cursor: pointer;
+    height: 3em;
+    margin-top: 0.7em;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
